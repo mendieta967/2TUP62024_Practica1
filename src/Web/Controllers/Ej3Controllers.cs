@@ -10,7 +10,7 @@ namespace Web.Controllers
         [HttpGet]
         public string Get(string nombre, int edad) 
         {
-            return $"Mi nombre es {nombre} y tengo {edad} años"
+            return $"Mi nombre es {nombre} y tengo {edad} años";
         }
     }
 }
